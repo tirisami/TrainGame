@@ -9,4 +9,4 @@ HOW TO PLAY
 
 NEED HELP?
 ----------
-Open an issue: https://github.com/YOURNAME/TrainGame
+Open an issue: https://github.com/tirisami/TrainGame
