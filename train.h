@@ -19,7 +19,7 @@ public:
 
     void addCarriage();
     void move(int newX, int newY);
-    bool isOnPosition(int x, int y);
+    bool isOnPosition(int x, int y) const;
 };
 bool placeCargo(int& cargoX, int& cargoY, Train& train, int gridWidth, int gridHeight);
 

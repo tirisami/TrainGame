@@ -44,7 +44,7 @@ void Train::move(int newX, int newY) {
     }
 }
 
-bool Train::isOnPosition(int x, int y) {
+bool Train::isOnPosition(int x, int y) const {
     TrainCarriage* current = head;
     while (current) {
         if (current->x == x && current->y == y)
